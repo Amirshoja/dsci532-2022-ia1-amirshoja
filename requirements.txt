@@ -42,6 +42,7 @@ Flask==2.0.3
 Flask-Compress==1.10.1
 fonttools==4.29.0
 frozenlist==1.2.0
+gunicorn==20.1.0
 hexbytes==0.2.2
 idna==3.3
 ipfshttpclient==0.8.0a2

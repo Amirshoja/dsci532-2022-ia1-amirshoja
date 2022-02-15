@@ -1,6 +1,7 @@
 from vega_datasets import data
 import altair as alt
 from dash import Dash, html, dcc, Input, Output
+import os
 
 # loading the cars data
 movies = data.movies()
@@ -39,6 +40,3 @@ def plot_movies(xcol):
 
 if __name__ == "__main__":
     app.run_server(debug=True)
-
-
-data.list_datasets()
